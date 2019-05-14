@@ -7,6 +7,8 @@ import { CustomMaterialModule } from './core/material.module';
 import { AppRoutingModule } from './core/app-routing.module';
 import { AppComponent } from './app.component';
 import { UploadFileComponent } from './pages/upload-file/upload-file.component';
+import { HttpClientModule } from '@angular/common/http';
+
 
 @NgModule({
     declarations: [
@@ -19,6 +21,7 @@ import { UploadFileComponent } from './pages/upload-file/upload-file.component';
         FormsModule,
         AppRoutingModule,
         CustomMaterialModule,
+        HttpClientModule
     ],
     providers: [],
     bootstrap: [AppComponent]
